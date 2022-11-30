@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ShareX</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="ShareX.HelpersLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.HelpersLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareX.ScreenCaptureLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.ScreenCaptureLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareX.UploadersLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.UploadersLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Program Files\ShareX\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.UniversalApiContract">
+      <HintPath>..\..\..\..\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="ShareX.HistoryLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.HistoryLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="zxing">
+      <HintPath>..\..\..\..\Program Files\ShareX\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareX.ImageEffectsLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.ImageEffectsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareX.IndexerLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.IndexerLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareX.MediaLib">
+      <HintPath>..\..\..\..\Program Files\ShareX\ShareX.MediaLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Runtime.WindowsRuntime" />
+    <Reference Include="Windows.Foundation.FoundationContract">
+      <HintPath>..\..\..\..\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
